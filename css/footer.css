@@ -1,0 +1,10 @@
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 4px 0;
+    width: 100%;
+}
+/* end::footer */

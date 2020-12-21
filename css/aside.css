@@ -1,0 +1,15 @@
+/* aside */
+aside input[type=submit] {
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 24px #94949450;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    padding: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+/* end::aside */

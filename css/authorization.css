@@ -1,0 +1,36 @@
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+td {
+    padding: 4px;
+}
+
+td > input {
+    border: 1px solid #94949450;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 4px;
+    width: 240px;
+    outline: none;
+}
+td > button {
+    background: #343a40;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 12px;
+}
+
+.login {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 24px #94949450;
+    padding: 40px 20px;
+}
+
+.error {
+    color: #e00;
+}

@@ -1,0 +1,36 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <display-name>ToDoList with CSRF Tokens</display-name>
+    <description>
+      ToDoList with CSRF Tokens
+    </description>
+
+    <servlet>
+        <servlet-name>  controller-servlet       </servlet-name>
+        <servlet-class>
+            edu.cmu.cs.webapp.finalproject.controller.Controller
+        </servlet-class>
+        <init-param>
+          <param-name>    jdbcDriverName          </param-name> 
+	      <param-value>   com.mysql.jdbc.Driver   </param-value>
+        </init-param>
+        <init-param>
+          <param-name>    jdbcURL                 </param-name> 
+	      <param-value>   jdbc:mysql:///test?useSSL=false </param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>  controller-servlet        </servlet-name>
+        <url-pattern>   *.do                     </url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>   login.do   </welcome-file>
+    </welcome-file-list>
+
+</web-app>

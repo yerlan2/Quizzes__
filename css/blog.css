@@ -1,0 +1,80 @@
+
+.blog__post {
+    display: flex;
+}
+.blog__post .delete__btn button {
+    background: #fff;
+    border: 2px solid #222;
+    border-radius: 30%;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.blog__post .delete__btn .x, 
+.blog__post .delete__btn .x:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #222;
+}
+.blog__post .delete__btn .x {
+    transform: translate(-50%,-50%) rotate(45deg);
+    height: 80%;
+    width: 10%;
+}
+.blog__post .delete__btn .x:after {
+    content: '';
+    transform: translate(-50%,-50%) rotate(90deg);
+    height: 100%;
+    width: 100%;
+}
+.blog__post .blog__post-container {
+    padding-top: 8px;
+    margin-left: 8px;
+}
+.blog__post .blog__post-container .blog__post-header {
+    display: flex;
+    align-items: center;
+}
+.blog__post .blog__post-container .blog__post-header .blog__post-user {
+    font-weight: 500;
+}
+.blog__post .blog__post-container .blog__post-header i {
+    margin-left: 4px;
+    font-size: 14px;
+    opacity: .5;
+}
+.blog__post .blog__post-body {
+    padding: 8px 0;
+}
+.blog__post-form {
+    margin-top: 10px;
+}
+.blog__post-form label {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.blog__post-form .textarea__title {
+    text-transform: uppercase;
+}
+.blog__post-form textarea {
+    margin-left: 10px;
+    width: 100%;
+    padding: 4px;
+    resize: none;
+}
+.blog__post-review {
+    display: flex;
+    align-items: center;
+}
+.blog__post-review textarea {
+    width: 50%;
+    padding: 4px;
+    resize: none;
+}
+.blog__post-review .submit {
+    margin: 0 0 0 20px;
+}

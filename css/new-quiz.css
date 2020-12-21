@@ -1,0 +1,55 @@
+h2 {
+    margin-bottom: 15px;
+}
+.question label {
+    display: block;
+}
+.question input[type=text] {
+    border: 1px solid #949494;
+    border-radius: 6px;
+    font-size: 18px;
+    outline: none;
+    padding: 6px;
+    width: 100%;
+}
+.question input::placeholder {
+    color: #949494;
+}
+
+.new-bttn {
+    background: #343a40;
+    border: 1px solid #949494;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 16px;
+    margin-left: 4px;
+    user-select: none;
+}
+.new-number {
+    border: 1px solid #949494;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: right;
+    padding: 4px 0 4px 4px;
+    outline: none;
+}
+
+.title {
+    border: 1px solid #949494;
+    border-radius: 6px;
+    font-size: 20px;
+    outline: none;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.action {
+    display: block;
+    border: 1px solid #949494;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
